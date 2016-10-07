@@ -1,0 +1,48 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0 auto;
+  display: table;
+
+}
+
+.title{
+  font-size: 2em;
+  font-weight: 900;
+}
+.circle
+{border: 1px solid #3a403d;
+border-radius: 50%;
+float: left;
+text-align: center;
+transition: width 2s,background 5s, height 5s, padding-top 5s;font-size: 1s;
+-webkit-transition:width 2s,background 5s, height 5s, padding-top 5s;font-size: 1s;
+}
+.big-green {
+  width:300px;
+padding-top:150px;
+height:150px;
+background:green
+}
+
+.small-blue {
+  width: 100px;
+  padding-top:40px;
+  height:60px;
+  background: blue;
+  font-size: 12px;
+}
+.button {
+  margin: 0 auto;
+  display: table;
+  border: 1px solid #3a403d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+    padding: 8px;
+  background:#ddd;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+.button:hover{
+  backgound: #ccc;
+}
